@@ -45,6 +45,8 @@ WEB SİTESİ LİNKİ:
 <img width="1918" height="901" alt="image" src="https://github.com/user-attachments/assets/fddec34c-9df4-4011-866d-5093929ec1d7" />
 <img width="1918" height="896" alt="image" src="https://github.com/user-attachments/assets/dbd42c67-3443-4228-8876-ca6fc3245c0a" />
 <img width="1918" height="958" alt="image" src="https://github.com/user-attachments/assets/2be45fac-3b70-48a3-8526-11abfc81e60e" />
+<img width="1917" height="913" alt="image" src="https://github.com/user-attachments/assets/45db91ef-bcf5-4ad6-95f3-d62dfdfc2353" />
+
 
 ## ⚙️ Gereksinimler
 
