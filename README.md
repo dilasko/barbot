@@ -10,12 +10,9 @@ Proje, geleneksel veritabanı sorgulama yeteneğini (Retrieval - Geri Çekme) ge
 Temel Kabiliyetler:
 
 Kullanıcının girdiği bir veya birden fazla malzemeye göre ilgili tarifi bulur.
-
 Bulunan tarifin tüm detaylarını (talimatlar, malzemeler, kategoriler) anlık olarak Türkçe'ye çevirir.
-
 Tarifin görselini web arayüzünde görüntüler.
-
-Geliştirme süreci Python dilinde ve Google Colab ortamında gerçekleştirilmiştir.
+Google Colab ortamında gerçekleştirilmiştir.
 
 Veri Seti Hakkında Bilgi
 Bu projede, halka açık ve kapsamlı bir kokteyl veri seti (final_cocktails.csv) kullanılmıştır.
@@ -25,17 +22,8 @@ Hazırlanış, Veri seti hazır olarak temin edilmiştir. Proje kapsamında, ara
 Kullanım,Pandas DataFrame olarak yüklenir ve RAG'ın Retrieval  aşamasında bir Knowledge Base olarak kullanılır.
 
 Elde Edilen Sonuçlar
-
 Dinamik Türkçe Çıktı: Gemini API sayesinde, veri setinde İngilizce olan tüm bilgiler (malzeme adları, talimatlar, kategoriler) başarılı bir şekilde Türkçe'ye çevrilerek sunulmuştur.
 Esnek Arama: Kullanıcılar, Vodka, Lime, Mint gibi virgülle ayrılmış birden fazla malzemeyi arayabilir ve bu malzemelerden en az birini içeren uygun bir tarif alabilirler.
-Geliştirilmiş Kullanıcı Deneyimi: Gradio arayüzü, metin çıktısı ve görsel çıktıyı düzenli bir şekilde yan yana göstererek okunabilirlik sorununu gidermiştir.
-
-Projeyi tamamlarken bu dosyaları eklemek, paylaşım için standart ve profesyonel bir yaklaşımdır.
-
-İşte bu kokteyl chatbot projesi için gerekli olan README.md ve requirements.txt dosyalarının içerikleri.
-
-1. README.md Dosyası
-Markdown
 
 # 🍸 B-A-R*BOT: Yapay Zeka Destekli Kokteyl Tarif Chatbot'u
 
@@ -52,7 +40,7 @@ B-A-R*BOT, elinizdeki malzemelere göre anında kokteyl tarifleri bulmanızı sa
 
 WEB SİTESİ LİNKİ:
 
-https://1d97d9f3ea96ec3969.gradio.live/
+(https://2a83995eef06a1adfd.gradio.live/)
 
 <img width="1918" height="901" alt="image" src="https://github.com/user-attachments/assets/fddec34c-9df4-4011-866d-5093929ec1d7" />
 <img width="1918" height="896" alt="image" src="https://github.com/user-attachments/assets/dbd42c67-3443-4228-8876-ca6fc3245c0a" />
