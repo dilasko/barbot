@@ -50,6 +50,13 @@ B-A-R*BOT, elinizdeki malzemelere göre anında kokteyl tarifleri bulmanızı sa
 * **Tam Türkçe Çıktı:** Kokteyl adı, kategorisi, malzemeleri, ölçüleri ve **yapılış talimatları** dahil tüm çıktıları profesyonel bir dille Türkçe'ye çevirir.
 * **Görsel Desteği:** Veri setindeki görseli gösterir; görsel yoksa veya API etkinse Gemini'nin Imagen modelini kullanarak tarife özel bir görsel oluşturur.
 
+WEB SİTESİ LİNKİ:
+
+https://1d97d9f3ea96ec3969.gradio.live/
+
+<img width="1918" height="901" alt="image" src="https://github.com/user-attachments/assets/fddec34c-9df4-4011-866d-5093929ec1d7" />
+<img width="1918" height="896" alt="image" src="https://github.com/user-attachments/assets/dbd42c67-3443-4228-8876-ca6fc3245c0a" />
+
 ## ⚙️ Gereksinimler
 
 Bu projeyi yerel olarak veya Google Colab'de çalıştırmak için aşağıdaki kütüphanelere ve API anahtarına ihtiyacınız vardır.
@@ -98,11 +105,5 @@ python chatbot.py
 # veya Colab'de iseniz, tüm hücreleri çalıştırın
 Uygulama, Gradio arayüzünü başlatacak ve size bir URL verecektir (örneğin: https://...gradio.live).
 
-WEB SİTESİ LİNKİ:
-
-https://1d97d9f3ea96ec3969.gradio.live/
-
-<img width="1918" height="901" alt="image" src="https://github.com/user-attachments/assets/fddec34c-9df4-4011-866d-5093929ec1d7" />
-<img width="1918" height="896" alt="image" src="https://github.com/user-attachments/assets/dbd42c67-3443-4228-8876-ca6fc3245c0a" />
 
 
