@@ -20,9 +20,9 @@ Geliştirme süreci Python dilinde ve Google Colab ortamında gerçekleştirilmi
 Veri Seti Hakkında Bilgi
 Bu projede, halka açık ve kapsamlı bir kokteyl veri seti (final_cocktails.csv) kullanılmıştır.
 Özellik,Açıklama
-İçerik,"Kokteyl adı, alkollü durumu, kategorisi, kullanılan malzemeler, ölçüleri, talimatları ve görsel URL'si gibi alanları içerir."
-Hazırlanış,"Veri seti hazır olarak temin edilmiştir. Proje kapsamında, arama işlemlerini hızlandırmak için ingredients sütunu küçük harfe çevrilerek temizlenmiştir."
-Kullanım,"Pandas DataFrame olarak yüklenir ve RAG'ın Retrieval (Geri Çekme) aşamasında bir ""Knowledge Base"" (Bilgi Tabanı) olarak kullanılır."
+İçerik, Kokteyl adı, alkollü durumu, kategorisi, kullanılan malzemeler, ölçüleri, talimatları ve görsel URL'si gibi alanları içerir.
+Hazırlanış, Veri seti hazır olarak temin edilmiştir. Proje kapsamında, arama işlemlerini hızlandırmak için ingredients sütunu küçük harfe çevrilerek temizlenmiştir.
+Kullanım,Pandas DataFrame olarak yüklenir ve RAG'ın Retrieval (Geri Çekme) aşamasında bir ""Knowledge Base"" (Bilgi Tabanı) olarak kullanılır.
 
 Elde Edilen Sonuçlar
 
@@ -34,4 +34,6 @@ WEB SİTESİ LİNKİ:
 https://1d97d9f3ea96ec3969.gradio.live/
 
 <img width="1918" height="901" alt="image" src="https://github.com/user-attachments/assets/fddec34c-9df4-4011-866d-5093929ec1d7" />
+<img width="1918" height="896" alt="image" src="https://github.com/user-attachments/assets/dbd42c67-3443-4228-8876-ca6fc3245c0a" />
+
 
