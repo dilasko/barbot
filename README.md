@@ -29,6 +29,75 @@ Elde Edilen Sonuçlar
 Dinamik Türkçe Çıktı: Gemini API sayesinde, veri setinde İngilizce olan tüm bilgiler (malzeme adları, talimatlar, kategoriler) başarılı bir şekilde Türkçe'ye çevrilerek sunulmuştur.
 Esnek Arama: Kullanıcılar, Vodka, Lime, Mint gibi virgülle ayrılmış birden fazla malzemeyi arayabilir ve bu malzemelerden en az birini içeren uygun bir tarif alabilirler.
 Geliştirilmiş Kullanıcı Deneyimi: Gradio arayüzü, metin çıktısı ve görsel çıktıyı düzenli bir şekilde yan yana göstererek okunabilirlik sorununu gidermiştir.
+
+Projeyi tamamlarken bu dosyaları eklemek, paylaşım için standart ve profesyonel bir yaklaşımdır.
+
+İşte bu kokteyl chatbot projesi için gerekli olan README.md ve requirements.txt dosyalarının içerikleri.
+
+1. README.md Dosyası
+Markdown
+
+# 🍸 B-A-R*BOT: Yapay Zeka Destekli Kokteyl Tarif Chatbot'u
+
+B-A-R*BOT, elinizdeki malzemelere göre anında kokteyl tarifleri bulmanızı sağlayan yapay zeka destekli bir Gradio uygulamasıdır. Kullanıcılar, birden fazla malzemeyi Türkçe veya İngilizce olarak girebilirler. Sistem, girdiğiniz malzemeleri içeren en uygun tarifi bulur, tüm detayları Türkçe'ye çevirir ve Gemini API'si sayesinde tarife uygun bir görsel sunar (veya oluşturur).
+
+## 🚀 Özellikler
+
+* **Akıllı ve Esnek Arama:**
+    * Tek malzeme aramasında esnektir (örn: "Çikolata" ile "Çikolata Likörü"nü bulur).
+    * Birden fazla malzeme aramasında hassastır (girdiğiniz tüm malzemelerin olmasını zorunlu kılar).
+* **Çok Dilli Giriş:** Türkçe (örn: "Viski, Limon") veya İngilizce malzeme girişini destekler.
+* **Tam Türkçe Çıktı:** Kokteyl adı, kategorisi, malzemeleri, ölçüleri ve **yapılış talimatları** dahil tüm çıktıları profesyonel bir dille Türkçe'ye çevirir.
+* **Görsel Desteği:** Veri setindeki görseli gösterir; görsel yoksa veya API etkinse Gemini'nin Imagen modelini kullanarak tarife özel bir görsel oluşturur.
+
+## ⚙️ Gereksinimler
+
+Bu projeyi yerel olarak veya Google Colab'de çalıştırmak için aşağıdaki kütüphanelere ve API anahtarına ihtiyacınız vardır.
+
+### Kütüphane Gereksinimleri
+
+Gerekli tüm kütüphaneler `requirements.txt` dosyasında listelenmiştir.
+
+```bash
+pip install -r requirements.txt
+API Anahtarı Gereksinimi (Zorunlu)
+Uygulamanın çeviri ve görsel oluşturma (Gemini/Imagen) özelliklerini kullanabilmesi için bir Google Gemini API anahtarı gereklidir.
+
+Google AI Studio adresinden bir API anahtarı alın.
+
+Anahtarınızı ayarlama adımlarını takip edin.
+
+💻 Kurulum ve Çalıştırma Adımları
+1. Dosyaları Hazırlama
+Ana Python kodunuzu (chatbot.py veya barbot.ipynb), requirements.txt dosyasını ve bu README.md dosyasını tek bir klasöre taşıyın.
+
+Veri Seti: final_cocktails.csv adlı veri setinizin de aynı klasörde veya Colab çalışma dizininde olduğundan emin olun.
+
+2. Kütüphaneleri Kurma
+Terminali açın ve projenizin olduğu klasöre gidin. Gerekli kütüphaneleri yükleyin:
+
+Bash
+
+pip install -r requirements.txt
+3. API Anahtarını Ayarlama (Çok Önemli!)
+API anahtarınızı projeye tanıtmak için en kesin yöntem, doğrudan kodu düzenlemektir.
+
+chatbot.py (veya kullandığınız ana kod dosyası) dosyasını açın.
+
+1. VERİ YÜKLEME VE API İSTEMCİSİ AYARLARI bölümünde bulunan aşağıdaki satırı bulun ve kendi anahtarınızla değiştirin:
+
+Python
+
+API_KEY_SABİT = 'SİZİN_API_ANAHTARINIZI_BURAYA_YAZIN' # <-- Anahtarınızı buraya yapıştırın
+4. Uygulamayı Başlatma
+Terminalde veya Colab hücresinde ana Python dosyanızı çalıştırın:
+
+Bash
+
+python chatbot.py 
+# veya Colab'de iseniz, tüm hücreleri çalıştırın
+Uygulama, Gradio arayüzünü başlatacak ve size bir URL verecektir (örneğin: https://...gradio.live).
+
 WEB SİTESİ LİNKİ:
 
 https://1d97d9f3ea96ec3969.gradio.live/
