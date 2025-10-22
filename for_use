@@ -1,0 +1,64 @@
+Bu kılavuz, Python dilinde yazılmış olan kokteyl tarif chatbot'unun sanal ortamda kurulması ve çalıştırılması için gerekli adımları içermektedir.
+
+Ön Koşullar
+Python: Bilgisayarınızda Python 3.8 veya üzeri bir sürüm yüklü olmalıdır.
+Gemini API Anahtarı: Google AI Studio üzerinden alınmış aktif bir Gemini API anahtarı.
+
+Adım Adım Kurulum ve Çalıştırma
+Adım 1: Projeyi İndirme ve Sanal Ortam Kurulumu
+Bu adım, projenin bağımlılıklarını izole etmek için kritik öneme sahiptir.
+
+A. Repoyu Klonlama (GitHub Kullanıyorsanız)
+Bash
+
+git clone [SİZİN GİTHUB REPO LİNKİNİZİ BURAYA YAZIN]
+cd [PROJE-KLASÖRÜNÜZ]
+B. Sanal Ortam Oluşturma
+Bash
+
+# Sanal ortamı oluşturun
+python -m venv venv 
+# Sanal ortamı etkinleştirin (Linux/macOS)
+source venv/bin/activate
+# Sanal ortamı etkinleştirin (Windows)
+venv\Scripts\activate
+Adım 2: Gerekli Kütüphaneleri Kurma
+Projenin çalışması için gereken tüm kütüphaneler (pandas, gradio, google-genai) requirements.txt dosyasında listelenmiştir.
+
+Bash
+
+pip install -r requirements.txt
+Adım 3: Veri Setini Hazırlama
+final_cocktails.csv adlı veri setinizin, projenin çalıştırılacağı ana klasörde veya Colab çalışma alanında bulunduğundan emin olun.
+
+Adım 4: Gemini API Anahtarını Ayarlama
+Chatbot'un çeviri ve potansiyel görsel oluşturma özelliklerini kullanabilmesi için Gemini API anahtarının bir ortam değişkeni olarak ayarlanması gerekir.
+
+A. Linux/macOS Kullanıyorsanız:
+Bash
+
+export GEMINI_API_KEY='SİZİN_GEMİNİ_APİ_ANAHTARINIZ'
+B. Windows (Komut İstemi) Kullanıyorsanız:
+Bash
+
+set GEMINI_API_KEY='SİZİN_GEMİNİ_APİ_ANAHTARINIZ'
+C. Google Colab Kullanıyorsanız:
+Colab'de ayrı bir kod hücresinde bu komutu çalıştırın:
+
+Python
+
+import os
+os.environ['GEMINI_API_KEY'] = 'SİZİN_GEMİNİ_APİ_ANAHTARINIZ'
+Adım 5: Kodunuzu Çalıştırma
+A. Python Dosyası (Lokalde Çalışırken)
+Kodunuz chatbot_main.py gibi bir Python dosyasına kaydedilmişse:
+
+Bash
+
+python chatbot_main.py
+B. Colab Notebook'u (Bulutta Çalışırken)
+[PROJE_ADI].ipynb dosyasını açın.
+
+Hücreleri sırasıyla çalıştırın.
+
+En son hücre (Gradio arayüzünü başlatan hücre) çalıştırıldıktan sonra, çıktı olarak bir Halka Açık URL (Public URL) verilecektir. Bu link, chatbot'unuzun web arayüzüdür.
