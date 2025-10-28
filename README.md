@@ -40,7 +40,7 @@ B-A-R*BOT, elinizdeki malzemelere göre anında kokteyl tarifleri bulmanızı sa
 
 WEB SİTESİ LİNKİ:
 
-(https://2a83995eef06a1adfd.gradio.live/)
+https://bb4a78d5afbfe0ec18.gradio.live/
 
 <img width="1918" height="901" alt="image" src="https://github.com/user-attachments/assets/fddec34c-9df4-4011-866d-5093929ec1d7" />
 <img width="1918" height="896" alt="image" src="https://github.com/user-attachments/assets/dbd42c67-3443-4228-8876-ca6fc3245c0a" />
